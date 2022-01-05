@@ -4,6 +4,9 @@
     background-color: #485563;
     cursor: pointer;
   }
+  body{
+    background-color: #485563;
+  }
 
   .container {
     padding-top: 10px;
