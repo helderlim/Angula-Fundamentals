@@ -10,10 +10,10 @@ import { EventService } from "../shared/event.service";
 })
 export class EventDetailsComponent {
     event:any;
-    constructor(private EventService: EventService){
+    constructor(private eventService: EventService){
         
     }
     ngOnInit() {
-       this.event = this.EventService.getEvent(1)
+       this.event = this.eventService.getEvent(1)
     }
 }
